@@ -10,11 +10,7 @@ func init() {
 		mask := map[string]bool{}   // 用于去重
 		for _, hzstr := range hzl { // 每个string
 			for _, rhz := range []rune(hzstr) { // 每个
-				hz := string(rhz)
-				if mask[hz] { // 去重
-					continue
-				}
-				mask[hz] = true
+				mask[string(rhz)] = true // 去重
 			}
 		}
 		var hzs []string // 去重排序
