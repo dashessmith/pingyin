@@ -1,4 +1,4 @@
-module github.com/dashessmith/pingyin
+module github.com/dashessmith/pinyin
 
 go 1.16
 

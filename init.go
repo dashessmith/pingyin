@@ -1,4 +1,4 @@
-package pingyin
+package pinyin
 
 import (
 	"sort"

@@ -1,4 +1,4 @@
-package pingyin
+package pinyin
 
 // 拼音 --> 汉字, init 中会拆分去重排序, 转换成 "a" 的形式
 var PH = map[string][]string{

@@ -12,10 +12,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/dashessmith/pingyin"
+	"github.com/dashessmith/pinyin"
 )
 
 func main() {
-	fmt.Printf("%v\n", pingyin.HP["汉"])
+	fmt.Printf("%v\n", pinyin.HP["汉"])
 }
 ```
