@@ -15,3 +15,6 @@ func Test_1(t *testing.T) {
 func Test_2(t *testing.T) {
 	assert.Equal(t, []string{"hang", "xing"}, pingyin.HP["行"])
 }
+func Test_3(t *testing.T) {
+	t.Logf("%v\n", pingyin.PH["ya"])
+}
