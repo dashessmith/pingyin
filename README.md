@@ -7,17 +7,15 @@ PH : 拼音 -> 汉字
 HP : 汉字 -> 拼音
 
 ```go
-func Test_1(t *testing.T) {
-	assert.Equal(t, []string{"wo"}, pingyin.HP["我"])
-	assert.Equal(t, []string{"ai"}, pingyin.HP["爱"])
-	assert.Equal(t, []string{"ni"}, pingyin.HP["你"])
-}
+package main
 
-func Test_2(t *testing.T) {
-	assert.Equal(t, []string{"hang", "xing"}, pingyin.HP["行"])
-}
+import (
+	"fmt"
 
-func Test_3(t *testing.T) {
-	t.Logf("%v\n", pingyin.PH["ya"])
+	"github.com/dashessmith/pingyin"
+)
+
+func main() {
+	fmt.Printf("%v\n", pingyin.HP["汉"])
 }
 ```
