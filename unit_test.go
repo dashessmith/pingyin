@@ -8,7 +8,10 @@ import (
 )
 
 func Test_1(t *testing.T) {
-	assert.Equal(t, "wo", pingyin.HP["我"])
-	assert.Equal(t, "ai", pingyin.HP["爱"])
-	assert.Equal(t, "ni", pingyin.HP["你"])
+	assert.Equal(t, []string{"wo"}, pingyin.HP["我"])
+	assert.Equal(t, []string{"ai"}, pingyin.HP["爱"])
+	assert.Equal(t, []string{"ni"}, pingyin.HP["你"])
+}
+func Test_2(t *testing.T) {
+	assert.Equal(t, []string{"hang", "xing"}, pingyin.HP["行"])
 }
