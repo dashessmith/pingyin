@@ -1,4 +1,4 @@
-# pingyin
+# pinyin
 
 内存中的汉字和拼音对照
 
